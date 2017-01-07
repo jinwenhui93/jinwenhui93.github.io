@@ -99,7 +99,7 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 <meta property="og:image" content="http://static.zybuluo.com/sweatbuffer/vpwlaexo9pe4yzv26s47dfw9/JNI.PNG">
 <meta property="og:image" content="http://static.zybuluo.com/sweatbuffer/ey0wvzv5zfr7u9bsmx1u1lan/JNI-interface.jpg">
 <meta property="og:image" content="http://static.zybuluo.com/sweatbuffer/8gl6mko7omuy5gs7xwpoowi9/jni%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B.png">
-<meta property="og:updated_time" content="2017-01-07T07:41:00.000Z">
+<meta property="og:updated_time" content="2017-01-07T07:43:45.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于Android NDK开发（一） - NDK 和 JNI 简介">
 <meta name="twitter:description" content="0x00 NDK 简介
@@ -322,7 +322,7 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T16:41:00+09:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T16:43:45+09:00">
                 2017-01-07
               </time>
             
@@ -377,7 +377,7 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 <h2 id="JNI-的优势"><a href="#JNI-的优势" class="headerlink" title="JNI 的优势"></a>JNI 的优势</h2><p>与其它类似接口（NETSCAP JAVA 运行接口，Microsoft 的原始本地接口，COM/JAVA 接口）相比，JNI主要的竞争优势在于： </p>
 <p>它在设计之初就确保了二进制的兼容性，JNI 编写的应用程序兼容性以及在某些平台上的 JAVA 虚拟机兼容性（不只 Dalvik 虚拟机 还有一般的 JAVA 虚拟机）。<br>这就是为什么 C/C++ 编译后的代码无论在任何平台上都能执行。不过一些早期版本并不支持二进制兼容。<br><img src="http://static.zybuluo.com/sweatbuffer/vpwlaexo9pe4yzv26s47dfw9/JNI.PNG" alt="JNI.PNG-100.8kB"></p>
 <hr>
-<h2 id="JNI-组织结构"><a href="#JNI-组织结构" class="headerlink" title="JNI 组织结构"></a>JNI 组织结构</h2><p><img src="http://static.zybuluo.com/sweatbuffer/ey0wvzv5zfr7u9bsmx1u1lan/JNI-interface.jpg" alt="JNI-interface.jpg-50kB"><br>这张 JNI 函数表的组成就像 C++ 的虚函数表。虚拟机可以运行多张寒暑表，举例来说，一张调试函数表，另一张是调用函数表。JNI 接口指针仅在当前线程中起作用。</p>
+<h2 id="JNI-组织结构"><a href="#JNI-组织结构" class="headerlink" title="JNI 组织结构"></a>JNI 组织结构</h2><p><img src="http://static.zybuluo.com/sweatbuffer/ey0wvzv5zfr7u9bsmx1u1lan/JNI-interface.jpg" alt="JNI-interface.jpg-50kB"><br>这张 JNI 函数表的组成就像 C++ 的虚函数表。虚拟机可以运行多张函数表，举例来说，一张调试函数表，另一张是调用函数表。JNI 接口指针仅在当前线程中起作用。</p>
 <p>这意味着 指针不能从一个线程进入另一个线程。 然而， 可以在不同的线程中调用本地方法。</p>
 <p>示例代码：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function">jdouble <span class="title">Java_pkg_Cls_f__ILjava_lang_String_2</span> <span class="params">(JNIEnv *env, jobject obj, jint i, jstring s)</span></span></div><div class="line">&#123;</div><div class="line">     <span class="keyword">const</span> <span class="keyword">char</span> *str = (*env)-&gt;GetStringUTFChars(env, s, <span class="number">0</span>); </div><div class="line">     (*env)-&gt;ReleaseStringUTFChars(env, s, str); </div><div class="line">     <span class="keyword">return</span> <span class="number">10</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
