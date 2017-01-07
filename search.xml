@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[关于Android NDK开发（一） - NDK 和 JNI 简介]]></title>
-      <url>http://yoursite.com/2017/01/07/title-%20%E5%85%B3%E4%BA%8EAndroid%20NDK%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%20-%20NDK%20%E5%92%8C%20JNI%20%E7%AE%80%E4%BB%8B/</url>
+      <url>http://jinwenhui93.github.io/2017/01/07/title-%20%E5%85%B3%E4%BA%8EAndroid%20NDK%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%20-%20NDK%20%E5%92%8C%20JNI%20%E7%AE%80%E4%BB%8B/</url>
       <content type="html"><![CDATA[<h1 id="0x00-NDK-简介"><a href="#0x00-NDK-简介" class="headerlink" title="0x00 NDK 简介"></a>0x00 NDK 简介</h1><hr>
 <h2 id="什么是Android-NDK"><a href="#什么是Android-NDK" class="headerlink" title="什么是Android NDK"></a>什么是Android NDK</h2><p><a href="https://developer.android.com/ndk/guides/index.html" target="_blank" rel="external">NDK</a>是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。<br>NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. </p>
 <hr>
@@ -131,7 +131,7 @@
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>http://yoursite.com/2017/01/07/Hello%20World/</url>
+      <url>http://jinwenhui93.github.io/2017/01/07/Hello%20World/</url>
       <content type="html"><![CDATA[<p>说一下为什么开始写个人博客，是因为最近在逛博客的时候发现大家都好像再用hexo，所以感觉好神奇想尝一下味道。</p>
 <p>第二个原因就是整理笔记的时候我就一直在想整理到网上也不错，可是一直都没动手，正好看到了hexo 所以想着试试看看。</p>
 <p>感觉好神奇 静态的。渍渍渍。。。</p>
@@ -142,20 +142,20 @@
   
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>http://yoursite.com/categories/index.html</url>
+      <title><![CDATA[about]]></title>
+      <url>http://jinwenhui93.github.io/about/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[about]]></title>
-      <url>http://yoursite.com/about/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>http://jinwenhui93.github.io/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
       <title><![CDATA[tags]]></title>
-      <url>http://yoursite.com/tags/index.html</url>
+      <url>http://jinwenhui93.github.io/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
