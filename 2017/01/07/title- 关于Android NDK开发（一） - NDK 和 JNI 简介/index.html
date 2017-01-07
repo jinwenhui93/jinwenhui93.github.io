@@ -96,15 +96,17 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 什么是Android NDKNDK是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. 
 
 NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进行开发的应用都必">
-<meta property="og:image" content="http://weibo.com/7Seven7King7">
-<meta property="og:updated_time" content="2017-01-07T07:29:38.000Z">
+<meta property="og:image" content="http://static.zybuluo.com/sweatbuffer/vpwlaexo9pe4yzv26s47dfw9/JNI.PNG">
+<meta property="og:image" content="http://static.zybuluo.com/sweatbuffer/ey0wvzv5zfr7u9bsmx1u1lan/JNI-interface.jpg">
+<meta property="og:image" content="http://static.zybuluo.com/sweatbuffer/8gl6mko7omuy5gs7xwpoowi9/jni%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B.png">
+<meta property="og:updated_time" content="2017-01-07T07:39:16.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于Android NDK开发（一） - NDK 和 JNI 简介">
 <meta name="twitter:description" content="0x00 NDK 简介
 什么是Android NDKNDK是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. 
 
 NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进行开发的应用都必">
-<meta name="twitter:image" content="http://weibo.com/7Seven7King7">
+<meta name="twitter:image" content="http://static.zybuluo.com/sweatbuffer/vpwlaexo9pe4yzv26s47dfw9/JNI.PNG">
 
 
 
@@ -320,7 +322,7 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T16:29:38+09:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T16:39:16+09:00">
                 2017-01-07
               </time>
             
@@ -362,22 +364,20 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 <h2 id="NDK存在的意义"><a href="#NDK存在的意义" class="headerlink" title="NDK存在的意义"></a>NDK存在的意义</h2><p>Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进行开发的应用都必须使用JAVA语言。然而 C/C++ 与 JAVA 各有各的优点何用途，为了能支持 C/C++ 谷歌在开发初期就使其 Dalvik虚拟机支持 JNI 编程方式，也就是第三方应用的 JAVA代码完全可以通过本机的(JNI)框架来调用Native动态库里的函数(.so文件里的各种函数).</p>
 <p>也就是说 因为有 NDK 和 JNI 的支持， Android平台可以实现 “JAVA + C”的这么一种编程方式。</p>
 <hr>
-<h2 id="为什么要用-NDK-（什么时候需要用-C）"><a href="#为什么要用-NDK-（什么时候需要用-C）" class="headerlink" title="为什么要用 NDK （什么时候需要用 C）"></a>为什么要用 NDK （什么时候需要用 C）</h2><blockquote>
-<ul>
+<h2 id="为什么要用-NDK-（什么时候需要用-C）"><a href="#为什么要用-NDK-（什么时候需要用-C）" class="headerlink" title="为什么要用 NDK （什么时候需要用 C）"></a>为什么要用 NDK （什么时候需要用 C）</h2><ul>
 <li>可以方便的使用现有的开源库。（大部分的开源库都是用 C/C++ 编写的）</li>
 <li>提高程序的执行效率。（很多要求高性能的应用使用C开发，从而提高应用程序的执行效率）。</li>
 <li>代码的保护。（apk 的 JAVA 层代码很容易被反编译，而 C/C++ 库的反汇编难度比较大）。</li>
 <li>底层程序设计。（例如，应用程序不依赖 Dalvik JAVA 虚拟机 ）</li>
 </ul>
-</blockquote>
 <hr>
 <h1 id="0x01-JNI-简介"><a href="#0x01-JNI-简介" class="headerlink" title="0x01 JNI 简介"></a>0x01 JNI 简介</h1><hr>
 <h2 id="什么是-JNI"><a href="#什么是-JNI" class="headerlink" title="什么是 JNI"></a>什么是 JNI</h2><p>JNI 是一种在JAVA虚拟机控制下执行代码的标准机制。代码被编写成汇编程序或者 C/C++ 程序，并组装为动态组。也就允许了非静态绑定用法。提供了在 JAVA 平台上调用C/C++的一种途径，反之亦然。</p>
 <hr>
 <h2 id="JNI-的优势"><a href="#JNI-的优势" class="headerlink" title="JNI 的优势"></a>JNI 的优势</h2><p>与其它类似接口（NETSCAP JAVA 运行接口，Microsoft 的原始本地接口，COM/JAVA 接口）相比，JNI主要的竞争优势在于： </p>
-<p>它在设计之初就确保了二进制的兼容性，JNI 编写的应用程序兼容性以及在某些平台上的 JAVA 虚拟机兼容性（不只 Dalvik 虚拟机 还有一般的 JAVA 虚拟机）。<br>这就是为什么 C/C++ 编译后的代码无论在任何平台上都能执行。不过一些早期版本并不支持二进制兼容。<br><img src="http://weibo.com/7Seven7King7" alt="JNI.PNG-100.8kB"></p>
+<p>它在设计之初就确保了二进制的兼容性，JNI 编写的应用程序兼容性以及在某些平台上的 JAVA 虚拟机兼容性（不只 Dalvik 虚拟机 还有一般的 JAVA 虚拟机）。<br>这就是为什么 C/C++ 编译后的代码无论在任何平台上都能执行。不过一些早期版本并不支持二进制兼容。<br><img src="http://static.zybuluo.com/sweatbuffer/vpwlaexo9pe4yzv26s47dfw9/JNI.PNG" alt="JNI.PNG-100.8kB"></p>
 <hr>
-<h2 id="JNI-组织结构"><a href="#JNI-组织结构" class="headerlink" title="JNI 组织结构"></a>JNI 组织结构</h2><p>![JNI-interface.jpg-50kB][2]<br>这张 JNI 函数表的组成就像 C++ 的虚函数表。虚拟机可以运行多张寒暑表，举例来说，一张调试函数表，另一张是调用函数表。JNI 接口指针仅在当前线程中起作用。</p>
+<h2 id="JNI-组织结构"><a href="#JNI-组织结构" class="headerlink" title="JNI 组织结构"></a>JNI 组织结构</h2><p><img src="http://static.zybuluo.com/sweatbuffer/ey0wvzv5zfr7u9bsmx1u1lan/JNI-interface.jpg" alt="JNI-interface.jpg-50kB"><br>这张 JNI 函数表的组成就像 C++ 的虚函数表。虚拟机可以运行多张寒暑表，举例来说，一张调试函数表，另一张是调用函数表。JNI 接口指针仅在当前线程中起作用。</p>
 <p>这意味着 指针不能从一个线程进入另一个线程。 然而， 可以在不同的线程中调用本地方法。</p>
 <p>示例代码：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function">jdouble <span class="title">Java_pkg_Cls_f__ILjava_lang_String_2</span> <span class="params">(JNIEnv *env, jobject obj, jint i, jstring s)</span></span></div><div class="line">&#123;</div><div class="line">     <span class="keyword">const</span> <span class="keyword">char</span> *str = (*env)-&gt;GetStringUTFChars(env, s, <span class="number">0</span>); </div><div class="line">     (*env)-&gt;ReleaseStringUTFChars(env, s, str); </div><div class="line">     <span class="keyword">return</span> <span class="number">10</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -455,13 +455,12 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 <tr>
 <td style="text-align:center">void（空型）</td>
 <td style="text-align:center">void</td>
-<td style="text-align:center"></td>
-<td>N/A</td>
+<td style="text-align:center">N/A</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<h2 id="JNI-引用类型"><a href="#JNI-引用类型" class="headerlink" title="JNI 引用类型"></a>JNI 引用类型</h2><p>![jni引用类型.png-38.8kB][3]</p>
+<h2 id="JNI-引用类型"><a href="#JNI-引用类型" class="headerlink" title="JNI 引用类型"></a>JNI 引用类型</h2><p><img src="http://static.zybuluo.com/sweatbuffer/8gl6mko7omuy5gs7xwpoowi9/jni%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B.png" alt="jni引用类型.png-38.8kB"></p>
 <hr>
 <h2 id="改进的-UTF-8-编码"><a href="#改进的-UTF-8-编码" class="headerlink" title="改进的 UTF-8 编码"></a>改进的 UTF-8 编码</h2><p>JNI 使用改进的 UTF-8 来表现不同的字符串类型。JAVA 使用 UTF-16 编码。 UTF-8 编码主要适用于 C 语言， 因为他们的编码把 u000 表示为 0xc0，而不是通常的 0x00。 使用改进的字符串可以使得 只包含非空 ASCII 的字符串编码只可以用一个字节（byte）表示。</p>
 <hr>
