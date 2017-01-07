@@ -313,7 +313,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T16:39:16+09:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T16:41:00+09:00">
                 2017-01-07
               </time>
             
@@ -374,13 +374,11 @@
 <p>这意味着 指针不能从一个线程进入另一个线程。 然而， 可以在不同的线程中调用本地方法。</p>
 <p>示例代码：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function">jdouble <span class="title">Java_pkg_Cls_f__ILjava_lang_String_2</span> <span class="params">(JNIEnv *env, jobject obj, jint i, jstring s)</span></span></div><div class="line">&#123;</div><div class="line">     <span class="keyword">const</span> <span class="keyword">char</span> *str = (*env)-&gt;GetStringUTFChars(env, s, <span class="number">0</span>); </div><div class="line">     (*env)-&gt;ReleaseStringUTFChars(env, s, str); </div><div class="line">     <span class="keyword">return</span> <span class="number">10</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<blockquote>
 <ul>
-<li>*env - 一个接口指针</li>
-<li>obj - 在本地方法中声明的对象引用</li>
-<li>i和s - 用于传递的参数</li>
+<li>*env   - 一个接口指针</li>
+<li>obj   - 在本地方法中声明的对象引用</li>
+<li>i 和 s - 用于传递的参数</li>
 </ul>
-</blockquote>
 <p>原始类型（Primitive Type）在虚拟机和本机代码进行拷贝，对象之间使用引用进行传递。VM（虚拟机)要追踪所有传递给本地代码的对象引用。GC无法释放所有传递给本地代码的对象引用。与此同时，本机代码应该通知VM不需要的对象引用。</p>
 <hr>
 <h2 id="局部引用和全局引用"><a href="#局部引用和全局引用" class="headerlink" title="局部引用和全局引用"></a>局部引用和全局引用</h2><p>JNI 定义了三种引用类型：<strong><code>局部引用</code></strong>，<strong><code>全局引用</code></strong>和<strong><code>全局弱引用</code></strong>。</p>
