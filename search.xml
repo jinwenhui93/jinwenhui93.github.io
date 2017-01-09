@@ -142,14 +142,14 @@
   
     
     <entry>
-      <title><![CDATA[about]]></title>
-      <url>http://www.sweatbuffer.com/about/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>http://www.sweatbuffer.com/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>http://www.sweatbuffer.com/categories/index.html</url>
+      <title><![CDATA[about]]></title>
+      <url>http://www.sweatbuffer.com/about/index.html</url>
       <content type="html"></content>
     </entry>
     
