@@ -118,7 +118,7 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
   var CONFIG = {
     root: '/',
     scheme: 'Pisces',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"always"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -549,6 +549,11 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
     <div>
       
         
+<div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="" alt="SweatBuffer wechat" style="width: 200px; max-width: 100%;"/>
+    <div></div>
+</div>
+
 
       
     </div>
@@ -799,6 +804,8 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
   
 
 
+  
+
 
 
   
@@ -818,6 +825,9 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
 
 
   
@@ -1017,6 +1027,28 @@ NDK存在的意义Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进�
 
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
