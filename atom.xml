@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.sweatbuffer.com/"/>
-  <updated>2017-01-10T04:20:16.000Z</updated>
+  <updated>2017-01-10T11:14:07.000Z</updated>
   <id>http://www.sweatbuffer.com/</id>
   
   <author>
@@ -16,34 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>生病了，2017第一场病</title>
-    <link href="http://www.sweatbuffer.com/2017/01/10/%E7%94%9F%E7%97%85/"/>
-    <id>http://www.sweatbuffer.com/2017/01/10/生病/</id>
-    <published>2017-01-10T04:20:16.000Z</published>
-    <updated>2017-01-10T04:20:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"><a href="#难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。" class="headerlink" title="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"></a>难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。</h2><hr>
-<h2 id="病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"><a href="#病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受" class="headerlink" title="病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"></a>病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。&quot;&gt;&lt;a href=&quot;#难受。。。昨天从下午
-    
-    </summary>
-    
-      <category term="个人日志" scheme="http://www.sweatbuffer.com/categories/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97/"/>
-    
-    
-      <category term="生病" scheme="http://www.sweatbuffer.com/tags/%E7%94%9F%E7%97%85/"/>
-    
-  </entry>
-  
-  <entry>
     <title>关于Android NDK开发（一） - NDK 和 JNI 简介</title>
-    <link href="http://www.sweatbuffer.com/2017/01/07/title-%20%E5%85%B3%E4%BA%8EAndroid%20NDK%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%20-%20NDK%20%E5%92%8C%20JNI%20%E7%AE%80%E4%BB%8B/"/>
-    <id>http://www.sweatbuffer.com/2017/01/07/title- 关于Android NDK开发（一） - NDK 和 JNI 简介/</id>
-    <published>2017-01-07T07:43:45.000Z</published>
-    <updated>2017-01-09T02:25:47.000Z</updated>
+    <link href="http://www.sweatbuffer.com/2017/01/10/title-%20%E5%85%B3%E4%BA%8EAndroid%20NDK%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%20-%20NDK%20%E5%92%8C%20JNI%20%E7%AE%80%E4%BB%8B/"/>
+    <id>http://www.sweatbuffer.com/2017/01/10/title- 关于Android NDK开发（一） - NDK 和 JNI 简介/</id>
+    <published>2017-01-10T11:14:07.000Z</published>
+    <updated>2017-01-10T11:14:07.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="0x00-NDK-简介"><a href="#0x00-NDK-简介" class="headerlink" title="0x00 NDK 简介"></a>0x00 NDK 简介</h1><hr>
 <h2 id="什么是Android-NDK"><a href="#什么是Android-NDK" class="headerlink" title="什么是Android NDK"></a>什么是Android NDK</h2><p><a href="https://developer.android.com/ndk/guides/index.html" target="_blank" rel="external">NDK</a>是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。<br>NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. </p>
@@ -59,6 +36,7 @@
 </ul>
 <hr>
 <h1 id="0x01-JNI-简介"><a href="#0x01-JNI-简介" class="headerlink" title="0x01 JNI 简介"></a>0x01 JNI 简介</h1><hr>
+<a id="more"></a>
 <h2 id="什么是-JNI"><a href="#什么是-JNI" class="headerlink" title="什么是 JNI"></a>什么是 JNI</h2><p>JNI 是一种在JAVA虚拟机控制下执行代码的标准机制。代码被编写成汇编程序或者 C/C++ 程序，并组装为动态组。也就允许了非静态绑定用法。提供了在 JAVA 平台上调用C/C++的一种途径，反之亦然。</p>
 <hr>
 <h2 id="JNI-的优势"><a href="#JNI-的优势" class="headerlink" title="JNI 的优势"></a>JNI 的优势</h2><p>与其它类似接口（NETSCAP JAVA 运行接口，Microsoft 的原始本地接口，COM/JAVA 接口）相比，JNI主要的竞争优势在于： </p>
@@ -170,20 +148,45 @@
     <summary type="html">
     
       &lt;h1 id=&quot;0x00-NDK-简介&quot;&gt;&lt;a href=&quot;#0x00-NDK-简介&quot; class=&quot;headerlink&quot; title=&quot;0x00 NDK 简介&quot;&gt;&lt;/a&gt;0x00 NDK 简介&lt;/h1&gt;&lt;hr&gt;
-&lt;h2 id=&quot;什么是Android-NDK&quot;&gt;&lt;a href=
+&lt;h2 id=&quot;什么是Android-NDK&quot;&gt;&lt;a href=&quot;#什么是Android-NDK&quot; class=&quot;headerlink&quot; title=&quot;什么是Android NDK&quot;&gt;&lt;/a&gt;什么是Android NDK&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://developer.android.com/ndk/guides/index.html&quot;&gt;NDK&lt;/a&gt;是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。&lt;br&gt;NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. &lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;NDK存在的意义&quot;&gt;&lt;a href=&quot;#NDK存在的意义&quot; class=&quot;headerlink&quot; title=&quot;NDK存在的意义&quot;&gt;&lt;/a&gt;NDK存在的意义&lt;/h2&gt;&lt;p&gt;Android 的 SDK 是基于JAVA实现，意味着基于 SDK 进行开发的应用都必须使用JAVA语言。然而 C/C++ 与 JAVA 各有各的优点何用途，为了能支持 C/C++ 谷歌在开发初期就使其 Dalvik虚拟机支持 JNI 编程方式，也就是第三方应用的 JAVA代码完全可以通过本机的(JNI)框架来调用Native动态库里的函数(.so文件里的各种函数).&lt;/p&gt;
+&lt;p&gt;也就是说 因为有 NDK 和 JNI 的支持， Android平台可以实现 “JAVA + C”的这么一种编程方式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;为什么要用-NDK-（什么时候需要用-C）&quot;&gt;&lt;a href=&quot;#为什么要用-NDK-（什么时候需要用-C）&quot; class=&quot;headerlink&quot; title=&quot;为什么要用 NDK （什么时候需要用 C）&quot;&gt;&lt;/a&gt;为什么要用 NDK （什么时候需要用 C）&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;可以方便的使用现有的开源库。（大部分的开源库都是用 C/C++ 编写的）&lt;/li&gt;
+&lt;li&gt;提高程序的执行效率。（很多要求高性能的应用使用C开发，从而提高应用程序的执行效率）。&lt;/li&gt;
+&lt;li&gt;代码的保护。（apk 的 JAVA 层代码很容易被反编译，而 C/C++ 库的反汇编难度比较大）。&lt;/li&gt;
+&lt;li&gt;底层程序设计。（例如，应用程序不依赖 Dalvik JAVA 虚拟机 ）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;0x01-JNI-简介&quot;&gt;&lt;a href=&quot;#0x01-JNI-简介&quot; class=&quot;headerlink&quot; title=&quot;0x01 JNI 简介&quot;&gt;&lt;/a&gt;0x01 JNI 简介&lt;/h1&gt;&lt;hr&gt;
     
     </summary>
     
-      <category term="Android安全" scheme="http://www.sweatbuffer.com/categories/Android%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生病了，2017第一场病</title>
+    <link href="http://www.sweatbuffer.com/2017/01/10/%E7%94%9F%E7%97%85/"/>
+    <id>http://www.sweatbuffer.com/2017/01/10/生病/</id>
+    <published>2017-01-10T04:20:16.000Z</published>
+    <updated>2017-01-10T04:20:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"><a href="#难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。" class="headerlink" title="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"></a>难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。</h2><hr>
+<h2 id="病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"><a href="#病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受" class="headerlink" title="病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"></a>病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。&quot;&gt;&lt;a href=&quot;#难受。。。昨天从下午
+    
+    </summary>
+    
+      <category term="个人日志" scheme="http://www.sweatbuffer.com/categories/%E4%B8%AA%E4%BA%BA%E6%97%A5%E5%BF%97/"/>
     
     
-      <category term="Android" scheme="http://www.sweatbuffer.com/tags/Android/"/>
-    
-      <category term="NDK" scheme="http://www.sweatbuffer.com/tags/NDK/"/>
-    
-      <category term="JNI" scheme="http://www.sweatbuffer.com/tags/JNI/"/>
-    
-      <category term="Security" scheme="http://www.sweatbuffer.com/tags/Security/"/>
+      <category term="生病" scheme="http://www.sweatbuffer.com/tags/%E7%94%9F%E7%97%85/"/>
     
   </entry>
   

@@ -4,15 +4,8 @@
   
     
     <entry>
-      <title><![CDATA[生病了，2017第一场病]]></title>
-      <url>http://www.sweatbuffer.com/2017/01/10/%E7%94%9F%E7%97%85/</url>
-      <content type="html"><![CDATA[<h2 id="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"><a href="#难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。" class="headerlink" title="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"></a>难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。</h2><hr>
-<h2 id="病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"><a href="#病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受" class="headerlink" title="病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"></a>病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受</h2>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[关于Android NDK开发（一） - NDK 和 JNI 简介]]></title>
-      <url>http://www.sweatbuffer.com/2017/01/07/title-%20%E5%85%B3%E4%BA%8EAndroid%20NDK%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%20-%20NDK%20%E5%92%8C%20JNI%20%E7%AE%80%E4%BB%8B/</url>
+      <url>http://www.sweatbuffer.com/2017/01/10/title-%20%E5%85%B3%E4%BA%8EAndroid%20NDK%E5%BC%80%E5%8F%91%EF%BC%88%E4%B8%80%EF%BC%89%20-%20NDK%20%E5%92%8C%20JNI%20%E7%AE%80%E4%BB%8B/</url>
       <content type="html"><![CDATA[<h1 id="0x00-NDK-简介"><a href="#0x00-NDK-简介" class="headerlink" title="0x00 NDK 简介"></a>0x00 NDK 简介</h1><hr>
 <h2 id="什么是Android-NDK"><a href="#什么是Android-NDK" class="headerlink" title="什么是Android NDK"></a>什么是Android NDK</h2><p><a href="https://developer.android.com/ndk/guides/index.html" target="_blank" rel="external">NDK</a>是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。<br>NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. </p>
 <hr>
@@ -27,6 +20,7 @@
 </ul>
 <hr>
 <h1 id="0x01-JNI-简介"><a href="#0x01-JNI-简介" class="headerlink" title="0x01 JNI 简介"></a>0x01 JNI 简介</h1><hr>
+<a id="more"></a>
 <h2 id="什么是-JNI"><a href="#什么是-JNI" class="headerlink" title="什么是 JNI"></a>什么是 JNI</h2><p>JNI 是一种在JAVA虚拟机控制下执行代码的标准机制。代码被编写成汇编程序或者 C/C++ 程序，并组装为动态组。也就允许了非静态绑定用法。提供了在 JAVA 平台上调用C/C++的一种途径，反之亦然。</p>
 <hr>
 <h2 id="JNI-的优势"><a href="#JNI-的优势" class="headerlink" title="JNI 的优势"></a>JNI 的优势</h2><p>与其它类似接口（NETSCAP JAVA 运行接口，Microsoft 的原始本地接口，COM/JAVA 接口）相比，JNI主要的竞争优势在于： </p>
@@ -134,6 +128,13 @@
 <hr>
 <p>作者 <a href="http://weibo.com/7Seven7King7" target="_blank" rel="external">@sweatbuffer</a><br>2017 年 01月 07日    </p>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[生病了，2017第一场病]]></title>
+      <url>http://www.sweatbuffer.com/2017/01/10/%E7%94%9F%E7%97%85/</url>
+      <content type="html"><![CDATA[<h2 id="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"><a href="#难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始-像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。" class="headerlink" title="难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。"></a>难受。。。昨天从下午四点开始就感觉不消化，难受。忍到了6点跟博士请假回家休养。。然后1点开始 像开了阀门的水龙头一样的在往外脱水。。。。。。。。好像好久都没这样拉肚子过了。。。。也可能是以前积攒的很多，一下再爆发力。。。</h2><hr>
+<h2 id="病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"><a href="#病从口入嘛-新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受" class="headerlink" title="病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受"></a>病从口入嘛 新的一年我要打理好自己的身体。。。健健康康的。。。生病的时候心里比较脆弱。。。比较难受</h2>]]></content>
     </entry>
     
     <entry>
