@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[关于Android NDK开发（一） - NDK 和 JNI 简介]]></title>
-      <url>http://www.sweatbuffer.com/2017/01/11/0x00%20NDK%20%E7%AE%80%E4%BB%8B/</url>
+      <url>http://www.sweatbuffer.com/2017/01/11/ndk%E7%AE%80%E4%BB%8B/</url>
       <content type="html"><![CDATA[<h1 id="0x00-NDK-简介"><a href="#0x00-NDK-简介" class="headerlink" title="0x00 NDK 简介"></a>0x00 NDK 简介</h1><hr>
 <h2 id="什么是Android-NDK"><a href="#什么是Android-NDK" class="headerlink" title="什么是Android NDK"></a>什么是Android NDK</h2><p><a href="https://developer.android.com/ndk/guides/index.html" target="_blank" rel="external">NDK</a>是(Native Development Kit)的缩写，也就是开发Native的套件或者说工具集合。<br>NDK提供了一系列的工具，帮助开发者快速开发C/C++的动态库(.SO文件)，并且能够自动将 so和java 应用一起打包成apk. </p>
 <hr>
@@ -150,14 +150,14 @@
   
     
     <entry>
-      <title><![CDATA[categories]]></title>
-      <url>http://www.sweatbuffer.com/categories/index.html</url>
+      <title><![CDATA[about]]></title>
+      <url>http://www.sweatbuffer.com/about/index.html</url>
       <content type="html"></content>
     </entry>
     
     <entry>
-      <title><![CDATA[about]]></title>
-      <url>http://www.sweatbuffer.com/about/index.html</url>
+      <title><![CDATA[categories]]></title>
+      <url>http://www.sweatbuffer.com/categories/index.html</url>
       <content type="html"></content>
     </entry>
     
